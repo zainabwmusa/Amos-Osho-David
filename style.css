@@ -59,9 +59,16 @@ body{
 }
 
 .hero .hero-content img{
-  border-radius: 50%;
+  border-radius: 10%;
   margin-bottom: 1em;
   height: 200px;
+  box-shadow: 0 0 20px rgba(255, 169, 9, 0.895);
+  transition-duration: 1s;
+}
+
+.hero .hero-content img:hover{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.895);
+  transform: scale(1.05);
 }
 
 .hero .hero-content h1{

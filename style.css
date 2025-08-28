@@ -13,6 +13,10 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .hero .whatsapp {
   position: fixed;
   bottom: 20px;
@@ -114,9 +118,10 @@ body{
 }
 
 .hero .hero-content .btn-1{
-  background: linear-gradient(90deg, #0000008c, #ff7707c1, #d1bebea7);
+  background: transparent;
   border: none;
   transition-duration: 1s;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.895);
 }
 
 .hero .hero-content .btn-1:hover{
